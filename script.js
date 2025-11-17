@@ -23,7 +23,7 @@ loadCards().then(contents => {
     div.innerHTML = `
       <div class="card-inner">
         <div class="card-face front">
-          <img src="https://i.imgur.com/zmHq2Q8.png" alt="Carta">
+          <img src="/assets/jb-logo.png" alt="Carta">
         </div>
         <div class="card-face back">${content}</div>
       </div>
